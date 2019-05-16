@@ -1,7 +1,6 @@
 .header {
 text-align: center;
 
-
 }
 
 .hero-image {
@@ -13,16 +12,18 @@ text-align: center;
   position: relative;
 
 }
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  color: #1f2242;
-  padding-left: 20px;
-  padding-right: 20px;
+
+
+/* Centered text */
+.text-block {
+  position: absolute;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 37px;
-  line-height: 0.8;
-
+  line-height: 20px;
+  color: #1f2242;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
 }
 
 /* Add a blue background color to the top navigation */
