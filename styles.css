@@ -16,6 +16,7 @@ text-align: center;
 /* Container holding the image and the text */
 .container {
   position: relative;
+  color: green;
 }
 
 /* top left text */
