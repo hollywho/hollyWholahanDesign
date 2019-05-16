@@ -1,0 +1,62 @@
+.header {
+text-align: center;
+
+
+}
+
+.hero-image {
+
+  height: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* top left text */
+.text-block {
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  color: #1f2242;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 37px;
+  line-height: 0.8;
+
+}
+
+/* Add a blue background color to the top navigation */
+.topnav {
+  background-color: #1f2242;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color:#1f2242;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #15a1aa;
+  color: white;
+}
