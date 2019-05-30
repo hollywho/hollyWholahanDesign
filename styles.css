@@ -1,3 +1,6 @@
+
+
+
 .header {
 text-align: center;
 
@@ -17,19 +20,21 @@ text-align: center;
 /* Centered text */
 .text-block {
   position: absolute;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 37px;
   line-height: 20px;
   color: #1f2242;
   top: 50%;
   left: 25%;
   transform: translate(-50%, -50%);
+
 }
 
 /* Add a blue background color to the top navigation */
 .topnav {
   background-color: #1f2242;
   overflow: hidden;
+
+
 }
 
 /* Style the links inside the navigation bar */
@@ -39,8 +44,8 @@ text-align: center;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 12px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+
 }
 
 /* Change the color of links on hover */
@@ -54,3 +59,27 @@ text-align: center;
   background-color: #15a1aa;
   color: white;
 }
+
+.row {
+  display: flex;
+  background:#1f2242;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 15px;
+  
+}
+
+
+
+.footerlogo{
+text-align: center;
+background: #15a1aa;
+}
+
+.email{
+color: white;
+text-align: center;
+background: #15a1aa;
+margin: 30px;
