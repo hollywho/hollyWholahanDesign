@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  
     <title>Marie-Mae Photography</title>
 </head>
 <body>
+  <div class="container">
     
     <div class="header">
       <img src="images/MM.png" alt="logo" width="20% " height="20%">
@@ -20,20 +19,25 @@
         </div>
     
     </div>
-    <div class="hero-image">
-        <img src="images/mm-hero-image-josie-snow.jpg" width="100%" height="10%">
-        <div class="text-block"> 
-            <h2>Holiday Sessions</h2>
-            <p>Now Booking</p>
-        </div>
+ <div class="sliderContainer">
+    <img name="slide" class="sliderImage">
+ </div>
+   
+
+<div class="services">
+    <div class="icons">
+        <img src="images/icons8-birthday-cake-50.png"> 
+        <p>EVENTS</p>
+        <img src="images/icons8-family-64.png"> 
+
     </div>
+ 
 
-
-
+</div>
 
     <div class="row">
             <div class="column">
-                  <img src="images/tinley 4.jpg" alt="tinley" style="width:100%">
+                  <img src="images/tinley 4.jpg" alt="tinley" style="width:100%;">
             </div>
             <div class="column">
               <img src="images/DSC_0082-2.jpg" alt="senger" style="width:100%">
@@ -45,7 +49,7 @@
 
           <div class="row">
             <div class="column">
-                  <img src="images/baby-xmas.jpg" alt="tinley" style="width:100%">
+                  <img src="images/DSC_0098.jpg" alt="tinley" style="width:100%">
             </div>
             <div class="column">
               <img src="images/girl-1.jpg" alt="senger" style="width:100%">
@@ -56,16 +60,36 @@
           </div>
 
 
-  
-</body>
-<footer>
-    
-        <div class="footerlogo">
-            <img src="images/MM-white.png" alt="logo" width="20% " height="20%" >
-        </div>
-        <div class="email" a href="marie.maephotography@gmail.com">
-        <a>marie.maephotography@gmail.com</a>
+  <script> 
+    var i = 0;
+    var images = [];
+    var time = 4000;
+    images[0] = "images/mm-hero-image-josie-snow.jpg";
+    images[1] = "images/mm-hero-image-bw-art.jpg";
+    images[2] = "images/baby-xmas.jpg";
 
-    </div>
-      </footer>
+
+    function changeImg(){
+      document.slide.src = images[i];
+
+      if(i < images.length -1){
+      i++;
+  } else{
+      i = 0;
+
+  }
+
+    setTimeout("changeImg()" , time); 
+    }
+  
+  window.onload = changeImg;
+  </script> 
+</div>
+</body>
+
+
+<div class="footer">
+    <img src="images/MM-white.png" alt="logo" width="20% " height="20%">
+  <a>marie.maephotography@gmail.com</a>
+</div>
 </html>
