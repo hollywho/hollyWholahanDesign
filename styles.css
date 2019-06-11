@@ -16,27 +16,16 @@ width: 100%;
     height: auto;
   }
   
-  /* Centered text */
-  .text-block {
-    position: absolute;
-    font-size: 37px;
-    line-height: 20px;
-    color: #1f2242;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
+ 
+
   
-  }
-  
-  /* Add a blue background color to the top navigation */
+ 
   .topnav {
     background-color: #1f2242;
     overflow: hidden;
-  
-  
   }
   
-  /* Style the links inside the navigation bar */
+
   .topnav a {
     float: center;
     color: #f2f2f2;
@@ -47,13 +36,13 @@ width: 100%;
   
   }
   
-  /* Change the color of links on hover */
+
   .topnav a:hover {
     background-color: #ddd;
     color:#1f2242;
   }
   
-  /* Add a color to the active/current link */
+
   .topnav a.active {
     background-color: #15a1aa;
     color: white;
@@ -62,15 +51,23 @@ width: 100%;
 
   .sliderContainer{
     width:100%;
-    height:auto;">
+    height:auto;
 
 
   }
   
-.services {
-  background-color: white;
-  display: flex;
-  width: 100%;
+.servicesContainer {
+width: 100%;
+margin-top: 5%;
+margin-bottom: 20%;
+text-align: center;
+}
+
+.h1{
+text-align: center;
+
+
+
 
 
 }
@@ -94,12 +91,41 @@ width: 100%;
     padding: 20px 20px;
 
   }
-  .footer {
-    left: 0;
-    bottom: 0;
-    margin-bottom: 1em;
+  .footerContainer {
+  
+    height: 25%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding: 20px 20px;
+    height: 100%;
     width: 100%;
-    background-color: #1f2242;
-    color: white;
+    background: #1f2242;
+
+
+  }
+  
+  .footerEmail {
+text-align: center;
+color: #f2f2f2;
+font-family: sans-serif;
+font-size: 1em;
+background: #1f2242;
+
+  }
+
+  .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #33383b;
+    border-radius: 2px;
+   
+    font-size: 20px;
+    color: #ffffff;
     text-align: center;
+    line-height: 35px;
+   
+    margin-right: 3px;
+    margin-bottom: 5px;
   }
