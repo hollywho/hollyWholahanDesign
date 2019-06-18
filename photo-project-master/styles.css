@@ -1,21 +1,19 @@
 
 
 body {
-width: 70%;
+width: 80%;
 margin: 0 auto;
 
 }
 
 
+
 .container {
 	width: 100%;
 }
-.mainHeader {
-	
+
+.header {
 	text-align: center;
-	width: 100%;
-	height: auto;
-	background: #f2f2f2;
 }
 
 .sliderImage {
@@ -26,34 +24,13 @@ margin: 0 auto;
 .topnav {
     background-color: #1f2242;
     overflow: hidden;
-	text-align: center;
-
+    text-align: center;
 }
 
 .topnav nav {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 585px;
-
-}
-
-
-h1 {
- font-family: 'Playfair Display SC', serif;
- font-size: 50px;
-color: #15a1aa;
-font-weight: bold;
-
-}
-
-
-h2 {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 30px;
-	vertical-align: center;
-	color: #1f2242
-
-
 }
 
 .topnav div {
@@ -81,87 +58,73 @@ h2 {
 
 .sliderContainer {
 	width: 100%;
-	height: auto;
+	height: 400px;
+	margin-bottom: 10%;
 }
 
-.servicesContainer {
-	width: 100%;
-	margin-top: 5%;
-	/* margin-bottom: 20%;*/
+h1 {
 	text-align: center;
-	
-
-}
-
-
-
-.servicesRow {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 10px 0;
-	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+	color: #1f2242;
+	font-size: 30px;
 	font-weight: bold;
-	vertical-align: middle;
+	float: center;
+	margin-top: 15%;
+}
 
+
+#services {
+
+	text-align: center;
+
+	flex-wrap: initial;
+	display: inline;
 
 }
 
-.serviceIcon {
 
+.icons {
 	display: flex;
 	flex-wrap: wrap;
-	width: 10%;
-	height: 10%;
-	padding: 5% 5%;
-	text-align: center;
+	width: 30%;
+	height: 30%;
 	margin: auto;
 
 
 }
 
 
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
 
-
 }
 
 #content {
+	margin-top: 10%;
 	text-align: center;
+
 }
 
 .center {
 	margin-right: auto;
 	margin-left: auto;
+
 }
 
 .column {
 	flex: 33%;
 	max-width: 32%;
 
+	
 }
 
 .column img {
-
+	margin-top: 15px;
 	vertical-align: middle;
 	width: 100%;
-}
-
-.mainFooter {
-text-align: center;
-margin-top: 50px;
-padding: 200px;
-background: #1f2242;
- {
-
-}
-
-
-.email {
-	color: #f2f2f2;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
+	
 }
 
 
@@ -173,46 +136,27 @@ background: #1f2242;
 @media screen and (max-width: 1200px) {
 	.topnav nav {
 		width: 70%;
-		
 	}
 }
 
-
 @media screen and (max-width: 1000px) {
 	.column {
-		flex: 49%;
+		flex: 100%;
 		max-width: 100%;
 	}
 	.topnav nav {
-		width: auto;
-
-	}
-
-	h1 {
-		max-width: 50%;
-		font-size: 40px;
-		text-align: center;
+		width: 90%;
 	}
 }
 
 @media screen and (max-width: 700px) {
-	
-	body {
-		margin:  0 auto;
-		width: 100%;
-
-	}
-	
 	.column {
 		flex: 50%;
 		max-width: 100%;
-		vertical-align: middle;
 	}
 
-	h1 {
-		max-width: 50%;
-		font-size: 30px;
-		text-align: center;
+	body {
+	width: 100%;
 	}
 }
 
@@ -223,16 +167,5 @@ background: #1f2242;
 	}
 	.topnav div a {
 		font-size: 14px;
-
 	}
-	h1 {
-		max-width: 50%;
-		font-size: 30px;
-		text-align: center;
-	}
-
-
-
-
-}
-
+} 
