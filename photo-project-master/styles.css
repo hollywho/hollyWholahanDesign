@@ -1,6 +1,6 @@
 
 
-
+  /* This is the hero image */
 .jumbotron {
 
 	text-align: center;
@@ -10,7 +10,7 @@
 
 }
 
-
+  /* Title Call to Action */
 .lead{
 	color:white;
 	font-size:2em;
@@ -19,13 +19,13 @@
 
 
 
-
+  /* Line Divider */
 .divider{
 width: 45%;
 
 }
 
-
+  /* About Us */
 .card-body{
 text-align: center;
 margin-left: 25%;
@@ -39,7 +39,7 @@ margin-right: 25%;
 
 
 }
-
+  /* Content Area*/
 .container{
     text-align: center;
 
@@ -65,7 +65,7 @@ h5 {
 	list-style-type: none;
 
 }
-
+  /* Testimonial Slide */
 .slide {
     position: absolute;
     margin-bottom: 5%;
