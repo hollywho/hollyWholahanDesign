@@ -4,7 +4,7 @@
 .jumbotron {
 
 	text-align: center;
-	background-image: url(images/marie-mae-header.jpg) ;
+	background-image: url("../images/marie-mae-header.jpg") ;
     background-size: cover;
     height: 800px;
 
