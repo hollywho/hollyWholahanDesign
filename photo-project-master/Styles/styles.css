@@ -11,6 +11,7 @@
 }
 
   /* Title Call to Action */
+
 .lead{
 	color:white;
 	font-size:2em;
@@ -42,7 +43,7 @@ margin-right: 25%;
   /* Content Area*/
 .container{
     text-align: center;
-
+  
     }
 .divider{
 	padding-top:5%;
@@ -91,3 +92,17 @@ h5 {
 
 }
 
+@media screen and (max-width:800px) {
+  .container {
+padding-top: 35%;
+  }
+
+}
+
+
+@media screen and (max-width:600px) {
+  .container {
+padding-top: 60%;
+  }
+
+}
